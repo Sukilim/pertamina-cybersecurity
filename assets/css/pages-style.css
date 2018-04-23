@@ -1,0 +1,158 @@
+
+/***********************************************************************************
+ *	+ PAGE WRAPPER
+ ***********************************************************************************/
+ 
+ 	#main-container {
+		overflow: hidden;
+		background-color: #fff; 
+	}
+
+ 
+/***********************************************************************************
+ *	+ HEADER
+ ***********************************************************************************/
+ 	
+	#header-container {
+		margin-bottom: 100px;
+	}
+	
+	#header-container [class^="col-"] {
+		min-height: 0;
+	}
+	
+	#header {
+		position: relative;
+		z-index: 30;
+	}
+	
+	#header [class^="col-"] {
+		position: static;
+	}
+	
+	#header .container,
+	#header .container-fluid {
+		position: relative;
+	}
+	
+	
+	/* HEADER STYLE 7 */
+	.header-style-7 #header {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+	
+	.header-style-7 #logo {
+		text-align: center;
+	}
+	
+	.header-style-7 .menu {
+		float: none;
+		text-align: center;
+	}
+	
+	.header-style-7 .menu > li {
+		float: none;
+		display: inline-block;
+		margin-right: -4px;
+		text-align: left;
+	}
+	
+	.header-style-7 .menu > li > a {
+		color: #fff;
+	}
+	
+	.header-style-7 .menu li a:hover, 
+	.header-style-7 .menu li.active > a,
+	.header-style-7 .menu li.sfHover > a {
+		background-color: transparent;
+	}
+	
+	.header-style-7 .menu li.search {
+		float: right;
+	}
+	
+	.header-style-7 #page-header {
+		padding-top: 220px;
+	}
+	
+	.header-style-7 #header-sticky {
+		background-color: #212121;
+	}
+	
+	.header-style-7 #header-sticky #logo {
+		display: none;
+	}
+	
+	
+	@media (min-width: 768px) and (max-width: 991px) {
+		
+		.header-style-7 #header {
+			position: relative;
+		}
+		
+		.header-style-7 #logo {
+			text-align: left;
+		}
+		
+	}
+	
+	@media (max-width: 767px) {
+
+		.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+		    content: none;
+		}
+		
+		.header-style-7 #header {
+			position: relative;
+		}
+		
+		.header-style-7 #logo {
+			text-align: left;
+		}
+		
+	}
+	
+/***********************************************************************************
+ *	- LOGO
+ ***********************************************************************************/
+
+	#logo {
+		max-width: 40%;
+		padding: 27px 0;
+	}
+	
+	#logo a {
+		display: inline-block;
+		max-width: 100%;
+		text-align: center;
+	}
+	
+	@media (max-width: 767px) {
+		
+		#logo {
+			margin-right: 60px;
+		}
+		
+	}
+
+/***********************************************************************************
+ *	- PORTFOLIO
+ ***********************************************************************************/
+	
+	.portfolio-item {
+		margin-bottom: 30px;
+	}
+	
+	.portfolio-item-thumbnail {
+		position: relative;
+		overflow: hidden;
+	}
+	
+	.portfolio-item-thumbnail + .portfolio-item-details {
+		padding: 40px 0;
+		text-align: center;
+	}
+	
