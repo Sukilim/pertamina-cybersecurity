@@ -22,7 +22,7 @@
 	<!-- CUSTOM & PAGES STYLE -->
 	<link rel="stylesheet" href="assets/css/custom.css">
 	<link rel="stylesheet" href="assets/css/pages-style.css">
-	
+	<link rel="stylesheet" href="assets/css/tooltip.css">
 
 </head>
 
@@ -126,8 +126,8 @@
 			            <!-- Email Header -->
 			            <div class="emailHeader">
 			              <p>
-			                <p class="label">From:</p><a class="highlight" data-toggle="tooltip" title="Apakah anda mengenal pengirim e-mail ini? Tidak ada Novi Mulya dalam Pertamina. Address Book milik Pertamina dapat digunakan untuk mengecek nama pengirim e-mail" href="#/">Novi Mulya</a>&nbsp;<br>
-			                &lt;novi_mulya<a class="highlight" data-toggle="tooltip" title="Alamat pengiriman e-mail adalah pretamina.blogbook.com, bukan Pertamina.com!" href="#/">@pretamina.blogbook.com&gt;</a></p>
+			                <p class="label">From:</p><abbr class="highlight" rel="tooltip" title="Apakah anda mengenal pengirim e-mail ini? Tidak ada Novi Mulya dalam Pertamina. Address Book milik Pertamina dapat digunakan untuk mengecek nama pengirim e-mail" href="#/">Novi Mulya</abbr>&nbsp;<br>
+			                &lt;novi_mulya<abbr class="highlight" rel="tooltip" title="Alamat pengiriman e-mail adalah pretamina.blogbook.com, bukan Pertamina.com!" href="#/">@pretamina.blogbook.com&gt;</abbr></p>
 			              <p>
 			                <p class="label">Subject:</p>Dokumen pajak 1721-A1 tahun 2018 Anda telah tersedia</p>
 			            </div>
@@ -136,7 +136,7 @@
 			              <p>
 			                Kepada [NAMA ANDA],<br>
 			                <br>
-			                Dokumen pajak terkini Anda sebagaimana <a class="highlight" data-toggle="tooltip" title="Alamat tautan tidak mengandung ‘Pertamina.com’ ataupun domain aman lainnya. Periksa dengan teliti tautan yang ada, baik dengan menyoroti tautan tersebut maupun dengan klik kanan" href="#/">terlampir</a>.</p>
+			                Dokumen pajak terkini Anda sebagaimana <abbr class="highlight" rel="tooltip" title="Alamat tautan tidak mengandung ‘Pertamina.com’ ataupun domain aman lainnya. Periksa dengan teliti tautan yang ada, baik dengan menyoroti tautan tersebut maupun dengan klik kanan" href="#/">terlampir</abbr>.</p>
 			              <p>
 			                Terima kasih,<br>
 			                Novi<br>
@@ -333,23 +333,10 @@
 
 	<!-- SCROLL UP -->
 	<a id="scroll-up"><i class="fa fa-angle-up"></i></a>
-	
-	
-	<!-- jQUERY -->
-
-	<script>
-	$(document).ready(function(){
-	    $('[data-toggle="tooltip"]').tooltip();   
-	});
-	</script>
-
-	<script src="assets/plugins/jquery/jquery-2.2.3.min.js"></script>
-	
-	<!-- BOOTSTRAP JS -->
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
 	<!-- CUSTOM JS -->
 	<script src="assets/js/custom.js"></script>
+	<script src="assets/js/tooltip.js"></script>
 	
 </body>
 

@@ -22,8 +22,8 @@
 	<!-- CUSTOM & PAGES STYLE -->
 	<link rel="stylesheet" href="assets/css/custom.css">
 	<link rel="stylesheet" href="assets/css/pages-style.css">
+	<link rel="stylesheet" href="assets/css/tooltip.css">
 	
-
 </head>
 
 <body class="sticky-header footer-style-1 header-style-7">
@@ -126,8 +126,8 @@
 			            <!-- Email Header -->
 			            <div class="emailHeader">
 			              <p>
-			                <p class="label">From:</p><a class="highlight" data-toggle="tooltip" title="Do you recognize this sender? There’s no Novi Mulya in Pertamina. Our Address Book is your friend!" href="#/">Novi Mulya</a>&nbsp;<br>
-			                &lt;novi_mulya<a class="highlight" data-toggle="tooltip" title="The sender's domain was pretamina.blogbook.com." href="#/">@pretamina.blogbook.com&gt;</a></p>
+			                <p class="label">From:</p><abbr class="highlight" rel="tooltip" title="Do you recognize this sender? There’s no Novi Mulya in Pertamina. Our Address Book is your friend!" href="#/">Novi Mulya</abbr>&nbsp;<br>
+			                &lt;novi_mulya<abbr class="highlight" rel="tooltip" title="The sender's domain was pretamina.blogbook.com." href="#/">@pretamina.blogbook.com&gt;</abbr></p>
 			              <p>
 			                <p class="label">Subject:</p>Your 1721-A1 for 2018 is now available</p>
 			            </div>
@@ -136,7 +136,7 @@
 			              <p>
 			                Hi [YOUR NAME],<br>
 			                <br>
-			                Your updated tax documents are <a class="highlight" data-toggle="tooltip" title="Checking the rewritten link revealed that it was strange and did not contain 'Pertamina.com' or another logical domain." href="#/">attached</a>.</p>
+			                Your updated tax documents are <abbr class="highlight" rel="tooltip" title="Checking the rewritten link revealed that it was strange and did not contain 'Pertamina.com' or another logical domain." href="#/">attached</abbr>.</p>
 			              <p>
 			                Thanks,<br>
 			                Novi<br>
@@ -334,18 +334,10 @@
 
 	<!-- SCROLL UP -->
 	<a id="scroll-up"><i class="fa fa-angle-up"></i></a>
-	
-	
-	<!-- jQUERY -->
 
-	<script>
-	$(document).ready(function(){
-	    $('[data-toggle="tooltip"]').tooltip();   
-	});
-	</script>
-
-	<!-- CUSTOM JS -->
+	<!-- JS -->
 	<script src="assets/js/custom.js"></script>
+	<script src="assets/js/tooltip.js"></script>
 	
 </body>
 
